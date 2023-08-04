@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
         - image: 211.183.3.100/test/nginx:1.0
-        name: mynginx
-        ports:
-        - protocol: TCP
-        - containerPort: 8888
+          name: mynginx
+          ports:
+            - containerPort: 8888
